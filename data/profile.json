@@ -1,0 +1,121 @@
+{
+  "name": {
+    "first": "Shivansh",
+    "last": "Rathor",
+    "full": "Shivansh Rathor"
+  },
+  "email": "shivanshrathore61@gmail.com",
+  "tagline": "Building cinematic digital experiences with modern web technologies & AI.",
+  "description": "Building cinematic digital experiences, scalable systems, and AI-powered products with modern web technologies.",
+  "roles": {
+    "short": "Software Developer",
+    "detailed": "Full-Stack Engineer · AI Systems · System Design"
+  },
+  "location": {
+    "based": "India",
+    "availability": "Worldwide"
+  },
+  "available": true,
+  "bio": "Full Stack Engineer with 1+ years of experience building scalable web and AI powered systems using MERN, Next.js, and Python. Specialized in microservices, high performance APIs, and production ready architectures with a strong focus on scalability, performance, and clean system design. Experienced across the full stack from frontend architecture to backend systems, Redis caching, async processing, and AI platforms powered by FastAPI and LangChain.",
+  "stats": [
+    { "value": "1+",  "label": "Years Experience" },
+    { "value": "20+", "label": "Projects Completed" },
+    { "value": "1",   "label": "Companies" }
+  ],
+  "skills": [
+    "Full Stack Engineer",
+    "AI Builder",
+    "Problem Solver",
+    "System Designer",
+    "MERN Stack",
+    "Next.js Dev",
+    "Python Dev",
+    "Microservices",
+    "Open Source",
+    "API Architect",
+    "LangChain",
+    "FastAPI"
+  ],
+  "experience": [
+    {
+  "id": 2,
+  "role": "Technical Head",
+  "company": "AlgoZenith",
+  "companyShort": "ALGOZENITH",
+  "type": "Student Community",
+  "location": "Lucknow, India",
+  "period": "Aug 2025",
+  "periodEnd": "Present",
+  "bullets": [
+    "Led technical initiatives and fostered a strong competitive programming and development community within the college.",
+    "Organized and managed 'Algo Chef,' a major technical event in February 2026, overseeing end-to-end event logistics.",
+    "Delivered a featured speech at Algo Chef to motivate students and guide them on their coding journeys."
+  ],
+  "desc": "Served as the Technical Head for the college's AlgoZenith chapter. Directed community-building efforts, managed technical events including Algo Chef, and provided guidance and public speaking to encourage student participation in tech.",
+  "tech": [
+    "Technical Leadership",
+    "Event Management",
+    "Public Speaking",
+    "Community Organizing"
+  ]
+}
+  ],
+  "projects": [
+    {
+  "id": 1,
+  "title": "QuizGenius",
+  "subtitle": "Interactive Online Assessment & Learning Platform",
+  "type": "EdTech SaaS",
+  "link": "https://quizgenius.com/",
+  "image": "/assets/quiz.jpeg",
+  "tech": ["React", "Node.js", "PostgreSQL", "Socket.io", "AWS", "Stripe"],
+  "desc": "A comprehensive real-time quiz and assessment platform designed for educators and corporate trainers. Features include live multiplayer gamified quizzes, automated grading, detailed analytics dashboards for tracking student progress, AI-generated question banks, and secure payment integration for premium course access."
+},
+    {
+  "id": 2,
+  "title": "AI Second Brain",
+  "subtitle": "Multimodal Knowledge Management System",
+  "type": "Productivity AI",
+  "link": "https://secondbrain.com/",
+  "image": "/assets/ai-second.jpeg",
+  "tech": ["MongoDB", "Express.js", "React", "Node.js", "Vector Embeddings", "LLM APIs"],
+  "desc": "An intelligent knowledge hub designed to organize, synthesize, and retrieve complex information. Engineered to seamlessly process and extract context from diverse data sources, including YouTube videos, PDFs, and images, utilizing vector embeddings for highly accurate semantic search and automated data structuring."
+},
+    {
+  "id": 3,
+  "title": "OmniSearch AI",
+  "subtitle": "Real-Time Conversational Search Engine",
+  "type": "AI Platform",
+  "link": "https://omnisearch-app.com/",
+  "image": "/assets/project.jpeg",
+  "tech": ["React", "Node.js", "Redux Toolkit", "Socket.io", "gRPC", "Vector Embeddings"],
+  "desc": "A highly responsive AI search platform engineered to deliver real-time, streaming answers. Built with gRPC for optimized backend communication and Socket.io for live data streaming, the application features seamless state management via Redux Toolkit, semantic search capabilities using vector embeddings, and real-time chat sharing functionality."
+}
+  ],
+  "publications": [
+    {
+  "id": 1,
+  "title": "Developing a Secure, Local-First 'Jarvis' AI Voice Assistant",
+  "platform": "GitHub", 
+  "year": "2026",
+  "link": "https://github.com/Shivansh2409/jarvis-assistant",
+  "desc": "A comprehensive deep dive into architecting a fully autonomous, offline AI voice assistant designed exclusively for local execution. Built to eliminate cloud dependencies and prioritize strict user privacy, this system operates entirely on the host machine. It features custom wake-word detection, local Speech-to-Text (STT) processing, and personalized voice biometrics engineered to recognize and respond solely to the designated owner. The project demonstrates advanced system-level automation, allowing the assistant to execute OS commands, manage local workflows, and provide instantaneous audio feedback without ever transmitting data to external servers."
+},
+    {
+  "id": 2,
+  "title": "Stealth AI Overlay",
+  "platform": "Desktop Utility",
+  "year": "2026",
+  "link": "https://github.com/Shivansh2409/ai-overlay",
+  "desc": "An advanced, system-level AI overlay engineered to operate completely undetected on top of other active applications. Designed to bypass screen-recording detection and standard anti-cheat mechanisms utilizing transparent UI rendering and stealth hooks. The application leverages real-time Optical Character Recognition (OCR) to silently capture on-screen context and delivers immediate, transparent AI assistance directly into the user's field of view."
+}
+    
+  ],
+  "socials": [
+    { "label": "GitHub",    "href": "https://github.com/Shivansh2409" },
+    { "label": "LinkedIn",  "href": "https://www.linkedin.com/in/shivanshrathor/" },
+    { "label": "Medium",    "href": "https://medium.com/" },
+    { "label": "Instagram", "href": "https://www.instagram.com/shivansh.24_09" },
+    { "label": "YouTube",   "href": "https://www.youtube.com/" }
+  ]
+}
