@@ -17,9 +17,9 @@ const NAV_ITEMS = [
   { label: 'Home',         idx: 0 },
   { label: 'About',        idx: 2 },
   { label: 'Projects',     idx: 3 },
-  { label: 'Experience',   idx: 5 },
-  { label: 'AI Tools', idx: 6 },
-  { label: 'Contact',      idx: 7 },
+  { label: 'Experience',   idx: 6 },
+  { label: 'AI Tools', idx: 7 },
+  { label: 'Contact',      idx: 9 },
 ]
 
 function getIST() {
