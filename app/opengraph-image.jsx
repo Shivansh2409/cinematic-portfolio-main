@@ -13,7 +13,7 @@ export const size = {
 export const contentType = 'image/png'
 
 const ACCENT = '#f7931e'
-const photoUrl = `${SITE_URL}/assets/about.webp`
+const photoUrl = `${SITE_URL}/assets/about.png`
 
 export default function Image() {
   return new ImageResponse(
@@ -250,7 +250,7 @@ export default function Image() {
             letterSpacing: 2,
           }}
         >
-          vaibhav-create.vercel.app
+          shiavnsh-create.vercel.app
         </div>
       </div>
     ),
