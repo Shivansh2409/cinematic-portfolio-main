@@ -1,9 +1,10 @@
 import { SITE_URL } from '@/lib/siteConfig'
 import { ImageResponse } from 'next/og'
+import profile from '@/data/profile.json'
 
 export const runtime = 'edge'
 
-export const alt = 'Shivansh Rathor | Full Stack Developer'
+export const alt = `${profile.name.full} | ${profile.roles.short}`
 
 export const size = {
   width: 1200,
@@ -16,6 +17,17 @@ const ACCENT = '#f7931e'
 const photoUrl = `${SITE_URL}/assets/about.png`
 
 export default function Image() {
+  const firstName = profile.name.first || 'SHIVANSH'
+  const lastName = profile.name.last || 'RATHOR'
+  const tagline = profile.tagline || 'Building cinematic digital experiences with modern web technologies & AI.'
+  const roleShort = profile.roles.short || 'Software Developer'
+
+  // Extract years of experience stat
+  const expStat = profile.stats.find(s => s.label.toLowerCase().includes('year'))
+  const expVal = expStat ? expStat.value : '1+'
+  const projectsStat = profile.stats.find(s => s.label.toLowerCase().includes('project'))
+  const projectsVal = projectsStat ? projectsStat.value : '20+'
+
   return new ImageResponse(
     (
       <div
@@ -80,7 +92,7 @@ export default function Image() {
                 textTransform: 'uppercase',
               }}
             >
-              SOFTWARE DEVELOPER
+              {roleShort.toUpperCase()}
             </span>
           </div>
 
@@ -100,7 +112,7 @@ export default function Image() {
                 letterSpacing: -4,
               }}
             >
-              SHIVANSH
+              {firstName.toUpperCase()}
             </span>
 
             <span
@@ -111,7 +123,7 @@ export default function Image() {
                 letterSpacing: -4,
               }}
             >
-              RATHOR
+              {lastName.toUpperCase()}
             </span>
           </div>
 
@@ -125,8 +137,7 @@ export default function Image() {
               marginBottom: 34,
             }}
           >
-            Building cinematic digital experiences with modern web
-            technologies & AI.
+            {tagline}
           </div>
 
           {/* TAGS */}
@@ -138,12 +149,7 @@ export default function Image() {
               flexWrap: 'wrap',
             }}
           >
-            {[
-              'AI Architect',
-              'Full Stack',
-              'Next.js',
-              'MERN Stack',
-            ].map((tag) => (
+            {profile.skills.slice(0, 4).map((tag) => (
               <div
                 key={tag}
                 style={{
@@ -169,8 +175,8 @@ export default function Image() {
             }}
           >
             {[
-              ['4+', 'Years'],
-              ['20+', 'Projects'],
+              [expVal, 'Years'],
+              [projectsVal, 'Projects'],
               ['AI + FS', 'Specialist'],
             ].map(([value, label]) => (
               <div
@@ -222,7 +228,7 @@ export default function Image() {
             src={photoUrl}
             width={420}
             height={630}
-            alt="Shivansh Rathor"
+            alt={profile.name.full}
             style={{
               objectFit: 'cover',
             }}
@@ -250,7 +256,7 @@ export default function Image() {
             letterSpacing: 2,
           }}
         >
-          shiavnsh-create.vercel.app
+          {SITE_URL.replace(/^https?:\/\//, '')}
         </div>
       </div>
     ),
