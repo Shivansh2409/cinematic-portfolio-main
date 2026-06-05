@@ -66,7 +66,7 @@
   "title": "QuizGenius",
   "subtitle": "Interactive Online Assessment & Learning Platform",
   "type": "EdTech SaaS",
-  "link": "https://quizgenius.com/",
+  "link": "https://shivansh-quiz.duckdns.org/",
   "image": "/assets/quiz.jpeg",
   "tech": ["React", "Node.js", "PostgreSQL", "Socket.io", "AWS", "Stripe"],
   "desc": "A comprehensive real-time quiz and assessment platform designed for educators and corporate trainers. Features include live multiplayer gamified quizzes, automated grading, detailed analytics dashboards for tracking student progress, AI-generated question banks, and secure payment integration for premium course access."
@@ -76,7 +76,7 @@
   "title": "AI Second Brain",
   "subtitle": "Multimodal Knowledge Management System",
   "type": "Productivity AI",
-  "link": "https://secondbrain.com/",
+  "link": "https://youtu.be/XW95x-QPxm8?si=PviImX1oLEa2nBAw",
   "image": "/assets/ai-second.jpeg",
   "tech": ["MongoDB", "Express.js", "React", "Node.js", "Vector Embeddings", "LLM APIs"],
   "desc": "An intelligent knowledge hub designed to organize, synthesize, and retrieve complex information. Engineered to seamlessly process and extract context from diverse data sources, including YouTube videos, PDFs, and images, utilizing vector embeddings for highly accurate semantic search and automated data structuring."
@@ -86,7 +86,7 @@
   "title": "OmniSearch AI",
   "subtitle": "Real-Time Conversational Search Engine",
   "type": "AI Platform",
-  "link": "https://omnisearch-app.com/",
+  "link": "https://github.com/Shivansh2409/perplexity",
   "image": "/assets/project.jpeg",
   "tech": ["React", "Node.js", "Redux Toolkit", "Socket.io", "gRPC", "Vector Embeddings"],
   "desc": "A highly responsive AI search platform engineered to deliver real-time, streaming answers. Built with gRPC for optimized backend communication and Socket.io for live data streaming, the application features seamless state management via Redux Toolkit, semantic search capabilities using vector embeddings, and real-time chat sharing functionality."
